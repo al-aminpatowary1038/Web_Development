@@ -1,0 +1,9 @@
+nav>ul>li{
+   display: inline-block;
+    margin-right: 30px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+
+    text-align: justify;
+}
