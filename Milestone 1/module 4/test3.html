@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 1</title>
+  <style>
+    input[type="text"], input[type="button"], input[type="datetime-local"], textarea {
+      margin: 5px;
+    }
+    img {
+      width: 150px;
+      padding: 10px 20px;
+    }
+    label {
+      margin: 10px 10px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <label for="Search">Search Your Image Here:</label>
+    <input type="text" id="Search" placeholder="Search Your Image Here" />
+    <input type="button" value="Search" />
+    <br />
+    <img src="../assets/Panda.jpeg" alt="Panda" />
+    <br />
+    <a href="#">For More Click Here</a>
+  </fieldset>
+
+  <form>
+    <p>Feedback Form</p>
+
+    <label for="name">Name:</label>
+    <input id="name" type="text" name="name" />
+
+    <label for="datetime">Date & Time:</label>
+    <input type="datetime-local" id="datetime" name="datetime" placeholder="mm/dd/yy" />
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="comment" placeholder="Write your comment here..."></textarea>
+  </form>
+</body>
+</html>
